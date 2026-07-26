@@ -1,0 +1,48 @@
+ARRAY LIST: ArrayList is a resizable array implementation of the List interface
+            found in the Java Collections Framework.
+
+Unlike a normal array, an ArrayList can grow or shrink dynamically as elements are added or removed.
+
+Method	Description
+add(element)	Adds an element
+get(index)	Retrieves an element
+set(index, element)	Replaces an element
+remove(index)	Removes an element
+size()	Returns the number of elements
+contains(element)	Checks if an element exists
+clear()	Removes all elements
+
+ArrayList<String> names = new ArrayList<>();
+ArrayList<Integer> ages = new ArrayList<>();
+
+
+Collections:
+Collections in Java is a framework that provides classes and interfaces to store, manage, 
+         and manipulate groups of objects efficiently.
+
+         Iterable
+   |
+Collection (Interface)
+   |
+   +---- List
+   |       +---- ArrayList
+   |       +---- LinkedList
+   |       +---- Vector
+   |
+   +---- Set
+   |       +---- HashSet
+   |       +---- LinkedHashSet
+   |       +---- TreeSet
+   |
+   +---- Queue
+           +---- PriorityQueue
+           +---- ArrayDeque
+
+Map (Separate Interface)
+   |
+   +---- HashMap
+   +---- LinkedHashMap
+   +---- TreeMap
+
+
+   

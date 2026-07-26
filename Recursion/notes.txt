@@ -1,0 +1,10 @@
+Recursion: When a  function calls itself until a speciiedd consition is met
+
+void recursiveFunction() {
+    // Base Case : condition that stops the Recursion
+    if(condition)
+        return;
+
+    // Recursive Call
+    recursiveFunction();
+}

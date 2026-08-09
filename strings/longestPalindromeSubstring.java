@@ -1,5 +1,3 @@
-package strings;
-
 public class longestPalindromeSubstring {
     
 }
@@ -178,21 +176,21 @@ e == e
 Move
 
 r a c e c a r
-    L     R
+    L   R
 Second iteration
 c == c
 
 Move
 
 r a c e c a r
-  L         R
+  L       R
 Third iteration
 a == a
 
 Move
 
 r a c e c a r
-L             R
+L           R
 Fourth iteration
 r == r
 

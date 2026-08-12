@@ -1,0 +1,22 @@
+1047
+class Solution {
+    public String removeDuplicates(String s) {
+       ArrayList<Character>list=new ArrayList<>();
+       for(char ch:s.toCharArray()){
+        if(!list.isEmpty() && list.get(list.size()-1)==ch){
+            list.remove(list.size()-1);
+        }
+
+        else{
+
+            list.add(ch);
+        }
+       }
+       StringBuilder result=new StringBuilder();
+       for(char ch:list){
+            result.append(ch);
+       }
+
+       return result.toString();
+    }
+}
